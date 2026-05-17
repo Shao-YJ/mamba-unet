@@ -1,14 +1,0 @@
-/root/miniconda3/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
-  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
-/root/miniconda3/lib/python3.10/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3526.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-=> merge config from ../code/configs/swin_tiny_patch4_window7_224_lite.yaml
-SwinTransformerSys expand initial----depths:[2, 2, 2, 2];depths_decoder:[1, 2, 2, 2];drop_path_rate:0.2;num_classes:4
----final upsample expand_first---
-
->>>> Testing: ../model/ACDC/swinunet_140_labeled/swinunet/swinunet_best_model.pth
-init weight from ../model/ACDC/swinunet_140_labeled/swinunet/swinunet_best_model.pth
-  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:00<00:10,  3.55it/s]  5%|▌         | 2/40 [00:00<00:07,  5.07it/s]  8%|▊         | 3/40 [00:00<00:06,  5.95it/s] 10%|█         | 4/40 [00:00<00:05,  6.48it/s] 12%|█▎        | 5/40 [00:00<00:05,  6.86it/s] 15%|█▌        | 6/40 [00:00<00:04,  7.14it/s] 18%|█▊        | 7/40 [00:01<00:04,  7.47it/s] 20%|██        | 8/40 [00:01<00:04,  7.67it/s] 22%|██▎       | 9/40 [00:01<00:03,  7.85it/s] 25%|██▌       | 10/40 [00:01<00:03,  7.92it/s] 30%|███       | 12/40 [00:01<00:03,  8.71it/s] 32%|███▎      | 13/40 [00:01<00:03,  8.62it/s] 35%|███▌      | 14/40 [00:01<00:02,  8.67it/s] 38%|███▊      | 15/40 [00:02<00:03,  8.20it/s] 40%|████      | 16/40 [00:02<00:03,  7.94it/s] 42%|████▎     | 17/40 [00:02<00:02,  8.17it/s] 45%|████▌     | 18/40 [00:02<00:02,  8.30it/s] 48%|████▊     | 19/40 [00:02<00:02,  8.13it/s] 50%|█████     | 20/40 [00:02<00:02,  8.08it/s] 52%|█████▎    | 21/40 [00:02<00:02,  7.63it/s] 55%|█████▌    | 22/40 [00:02<00:02,  7.13it/s] 57%|█████▊    | 23/40 [00:03<00:02,  7.59it/s] 60%|██████    | 24/40 [00:03<00:01,  8.08it/s] 62%|██████▎   | 25/40 [00:03<00:01,  7.60it/s] 65%|██████▌   | 26/40 [00:03<00:01,  7.33it/s] 70%|███████   | 28/40 [00:03<00:01,  8.60it/s] 72%|███████▎  | 29/40 [00:03<00:01,  7.65it/s] 75%|███████▌  | 30/40 [00:03<00:01,  7.07it/s] 80%|████████  | 32/40 [00:04<00:00,  8.73it/s] 82%|████████▎ | 33/40 [00:04<00:00,  7.62it/s] 85%|████████▌ | 34/40 [00:04<00:00,  6.88it/s] 90%|█████████ | 36/40 [00:04<00:00,  8.39it/s] 92%|█████████▎| 37/40 [00:04<00:00,  7.96it/s] 95%|█████████▌| 38/40 [00:04<00:00,  7.63it/s] 98%|█████████▊| 39/40 [00:05<00:00,  7.96it/s]100%|██████████| 40/40 [00:05<00:00,  8.22it/s]100%|██████████| 40/40 [00:05<00:00,  7.69it/s]
-Result for _best_model.pth: [0.89020023459423, 0.8436630573797836, 0.914901809798717]
-[0.89020023459423, 0.8436630573797836, 0.914901809798717]
-0.8829217005909102
