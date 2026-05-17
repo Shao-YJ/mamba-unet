@@ -1,5 +1,0 @@
-# ninja log v7
-2	3823	1773567993396187077	/root/code/Mamba-UNet-main/causal-conv1d/build/temp.linux-x86_64-cpython-310/csrc/causal_conv1d_update.o	d323f5065d24b8ce
-1	8650	1773567993396187077	/root/code/Mamba-UNet-main/causal-conv1d/build/temp.linux-x86_64-cpython-310/csrc/causal_conv1d_fwd.o	6f8eda5409222292
-0	17339	1773567993396187077	/root/code/Mamba-UNet-main/causal-conv1d/build/temp.linux-x86_64-cpython-310/csrc/causal_conv1d.o	e234b3ea4256b174
-1	22873	1773567993396187077	/root/code/Mamba-UNet-main/causal-conv1d/build/temp.linux-x86_64-cpython-310/csrc/causal_conv1d_bwd.o	161d715cf3fe5ed9
