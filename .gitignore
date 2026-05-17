@@ -2,6 +2,7 @@ model
 pdf
 data
 img
+mamba
 LICENSE
 total_progress.log
 swin_tiny_patch4_window7_224.pth
